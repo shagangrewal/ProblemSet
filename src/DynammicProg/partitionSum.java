@@ -22,7 +22,7 @@ public class partitionSum {
         return ans;
     }
     public static void main(String[] args){
-        int a[] = {1,5,11,5,23,1,15,15w};
+        int a[] = {1,5,11,5,23,1,15,15};
         System.out.println(pSum(a));
     }
 }

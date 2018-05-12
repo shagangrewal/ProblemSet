@@ -2,7 +2,7 @@ package DynammicProg;
 
 public class optimalCostBST {
     public static int optCost(int a[], int b[]){
-        int cost[][] = new int[a.length][a.length];
+        int cost[][] = new int[a.length][b.length];
         for(int i=0;i<a.length;i++){
             cost[i][i] = b[i];
         }
